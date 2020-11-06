@@ -1,7 +1,7 @@
 arch: arm64
+
 services: 
 - docker
-- mysql
 
 script:
 - docker run --name mysql1 -e MYSQL_ROOT_HOST=% -p 3306:3306 -d mysql/mysql-server
