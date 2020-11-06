@@ -4,7 +4,7 @@ services:
 - docker
 
 script:
-- docker run --name mysql1 -d mysql/mysql-server
+- docker run --name falcon-mysql -d mysql/mysql-server
 - docker logs mysql1
 - docker stop mysql1 && docker rm mysql1
 - docker run --name mysql1 -e MYSQL_ROOT_HOST=% -p 3306:3306 -d mysql/mysql-server
