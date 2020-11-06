@@ -1,5 +1,5 @@
 arch: arm64
-service: 
+services: 
 - docker
 - mysql
 
