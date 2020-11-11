@@ -7,4 +7,6 @@ ruby:
 - 2.6.6
 
 script:
-- bundle exec rake test:$TEST_SUITE
+- `hostname -i`
+- ruby t1.rb
+`
