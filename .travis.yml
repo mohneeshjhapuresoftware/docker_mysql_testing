@@ -2,8 +2,6 @@ arch:
     - amd64
     - arm64
 
-services: 
-- docker
 ruby:
     - 2.5.8
     - 2.6.6
