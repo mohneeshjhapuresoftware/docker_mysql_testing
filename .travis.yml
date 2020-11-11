@@ -7,7 +7,7 @@ jobs:
 - sudo: required
   group: edge
   virt: vm
-  dist: bionic
+  dist: focal
   arch: arm64-graviton2
 ruby:
 - 2.5.8
