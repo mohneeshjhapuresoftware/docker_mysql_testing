@@ -1,3 +1,4 @@
+language: ruby
 arch: 
 - amd64
 - arm64
