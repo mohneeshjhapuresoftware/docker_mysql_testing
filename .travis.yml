@@ -1,11 +1,17 @@
 language: ruby
 dist: bionic
-arch: 
-- amd64
-- arm64
+
+jobs:
+- arch: amd64
+- arch: arm64
+- sudo: required
+  group: edge
+  virt: vm
+  dist: bionic
+  arch: arm64-graviton2
 ruby:
 - 2.5.8
-- 2.6.6
+
 
 script:
 - ruby t1.rb
