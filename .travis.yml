@@ -15,4 +15,4 @@ ruby:
 
 script:
 - ruby t1.rb
-cat /etc/hosts
+- cat /etc/hosts
